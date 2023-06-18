@@ -1,5 +1,6 @@
 import createContactPage from './contact';
 import createMenuPage from './menu';
+import './styles.css';
 
 function createTabElement(id, textContent, clickHandler) {
   const tab = document.createElement('div');
